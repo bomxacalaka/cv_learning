@@ -12,7 +12,12 @@ public class Main {
             public void gay() {
                 System.out.println(this.name + " sheesh kebab");
             }
-        };
+
+            @Override
+            public void setName(String name) {
+                super.setName(name + " overridden by an anonymous class haha");
+            }
+        }; //Anonymous class
 
         person1.gay();
 
@@ -57,6 +62,7 @@ public class Main {
 
         gayppl.get(0).gay();
         gayppl.get(1).gay();
+
 
 
 

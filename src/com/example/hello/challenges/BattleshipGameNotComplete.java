@@ -1,10 +1,6 @@
 package com.example.hello.challenges;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class BattleshipGame {
+public class BattleshipGameNotComplete {
 
     public static void main(String[] args) {
 
